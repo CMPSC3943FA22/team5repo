@@ -1,11 +1,12 @@
 {
-    "url": [
-        "https://www.calendarlabs.com/ical-calendar/ics/46/Germany_Holidays.ics",
-        "https://calendar.google.com/calendar/ical/75d89a10eec6e92a86a20cb5603e49e921e3cd9dcfa7d585aac87bc496e7df45%40group.calendar.google.com/public/basic.ics"
-    ],
-    "title": "",
-    "loader": "",
-    "controls": [
-        "date"
-    ]
+  "url": [
+    "https://www.calendarlabs.com/ical-calendar/ics/46/Germany_Holidays.ics",
+    "https://calendar.google.com/calendar/ical/75d89a10eec6e92a86a20cb5603e49e921e3cd9dcfa7d585aac87bc496e7df45%40group.calendar.google.com/public/basic.ics"
+  ],
+  "title": "",
+  "skin": "dhtmlxscheduler_contrast_black.css",
+  "loader": "",
+  "controls": [
+    "date"
+  ]
 }
