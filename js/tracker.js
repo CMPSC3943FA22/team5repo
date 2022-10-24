@@ -4,7 +4,7 @@
     maxPullRequestTitleLength: 100,
     repositories: [
       {
-        owner: 'team5repo',
+        owner: 'CMPSC3943FA22/team5repo',
         name: 'team 5 repo tracker',
         pulls: {
           display: true,
