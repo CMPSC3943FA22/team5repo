@@ -53,6 +53,12 @@
     background:rgb(105, 105, 105); 
   }
   
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+body {
+  margin: 0;
+  background-color: black;
+
+}
   .note {
     height: 150px;
     box-sizing: border-box;
@@ -81,7 +87,7 @@
     background: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     font-size: 120px;
-    color: rgba(0, 0, 0, 0.5);
+    color: white;
     cursor: pointer;
     transition: background 0.2s;
     background: yellow;
