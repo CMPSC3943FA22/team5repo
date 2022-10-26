@@ -5,12 +5,12 @@
     font-size: 15px;
     display: grid;
     grid-template-rows: max-content auto;
-    grid-gap: 10px;
-    padding: 10px;
+    grid-gap: 8px;
+    padding: 8px;
     height:800px;
   }.list-layout {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 8px;
    
   }.board-text {
     font-weight: bold;
@@ -30,17 +30,17 @@
     border-radius: 3px;
     display: grid;
     grid-auto-rows: max-content;
-    grid-gap: 10px;/* Chrome use a fixed height */height: max-content;
-    padding: 10px;
+    grid-gap: 8px;/* Chrome use a fixed height */height: max-content;
+    padding: 5px;
   }
   
   .list-title {
     font-size: 18px;
     font-weight: bold;
   }.card {
-    background-color: black;
+    background-color: grey;
     border-radius: 3px;
     box-shadow: 0 1px 0 rgba(9,30,66,.25);
-    padding: 10px;
+    padding: 8px;
     cursor:pointer;
   }
