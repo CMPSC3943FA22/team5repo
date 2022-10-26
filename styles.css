@@ -40,7 +40,7 @@
   }.card {
     background-color: rgb(105, 105, 105);
     border-radius: 3px;
-    box-shadow: 0 1px 0 rgba(9,30,66,.25);
+    box-shadow: 0 1px 0 rgb(211, 211, 211);
     padding: 8px;
     cursor:pointer;
   }
