@@ -26,7 +26,7 @@
   }
   
   .board-list {
-    background-color: rgb(105, 105, 105);
+    background-color: black;
     border-radius: 3px;
     display: grid;
     grid-auto-rows: max-content;
