@@ -38,7 +38,7 @@
     font-size: 18px;
     font-weight: bold;
   }.card {
-    background-color: lightgrey;
+    background-color: black;
     border-radius: 3px;
     box-shadow: 0 1px 0 rgba(9,30,66,.25);
     padding: 10px;
