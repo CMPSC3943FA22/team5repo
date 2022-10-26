@@ -28,8 +28,8 @@ body {
   resize: none;
   font-family: 'Permanent Marker', cursive;
   font-size: 30px;
-  background: rgb(170, 255, 0);
-  color:darkred;
+  background: rgb(105, 105, 105);
+  color:white;
   line-height:1.7em;
   font-size:25px;
   -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
