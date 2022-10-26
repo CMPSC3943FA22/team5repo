@@ -44,3 +44,54 @@
     padding: 8px;
     cursor:pointer;
   }
+  #stickynote {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    padding: 10px;
+    gap: 10px;
+    border-style: dotted;
+    background:rgb(105, 105, 105); 
+  }
+  
+  .note {
+    height: 150px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow:
+      inset 0 -40px 40px rgba(0,0,0,0.2),
+      inset 0 25px 10px rgba(0,0,0,0.2),
+      0 5px 6px 5px rgba(0,0,0,0.2);
+    resize: none;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    background: rgb(105, 105, 105);
+    color:white;
+    line-height:1.7em;
+    font-size:25px;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  
+  }
+  
+  .add-note {
+    height: 150px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background 0.2s;
+    background: yellow;
+  }
+  
+  .add-note:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .note:hover {
+     transform: scale(1.2, 1.2);
+     background-color: #0892d0;
+  }
+  
