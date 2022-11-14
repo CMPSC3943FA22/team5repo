@@ -1,0 +1,14 @@
+
+h1 {text-align: center;
+    font-weight: bold;
+    
+}
+
+
+.completed{text-decoration: line-through;
+font-size: 25px;
+color: red;
+font-weight: bold;
+
+}
+

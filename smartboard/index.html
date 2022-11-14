@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+    <body>
+        <div class="display">
+            <a class="settings" onclick="myFunction()" id="settings">
+                <img src="src/image/settings.png" width="50" height="50">
+            </a>
+            <a class="settings" href="index.html" id="home">
+                <img src="src/image/home.png" width="50" height="50">
+            </a>
+            <div class="leftframe">
+                <iframe name="mainframe" id="mainframe" frameBorder="0"scrolling="no" style="width:100%; height:100%; "></iframe>
+                <iframe src="src/set.html " id="set" frameBorder="0" style="width:100%; height:100%; "></iframe>
+                <iframe src="src/news.html " name="mainframe" id="news" class="news" frameBorder="0" scrolling="no" style="width:100%; height:100%;"></iframe>
+            </div>
+            <div class="rightframe">
+                <a href="src/weather.html" class="button" target="mainframe" onclick="hidemain()">
+                    <h1>weather</h1>
+                </a>
+                <a href="src/news.html" class="button" target="mainframe" onclick="hidemain()">
+                    <h1>News</h1>
+                </a>
+                <a href="src/calendar.html" class="button" target="mainframe" onclick="hidemain()">
+                    <h1>calendar</h1>
+                </a>
+                <a href="src/todolist.html" class="button" target="mainframe" onclick="hidemain()">
+                    <h1>todolist</h1>
+                </a>
+            </div>
+            <script src="src/js/script.js"></script>
+           
+    </body>
+</html>
