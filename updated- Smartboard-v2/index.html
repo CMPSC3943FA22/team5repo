@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+    <body>
+        <div class="display">
+            <!-- Settings button-->
+            <a class="settings" onclick="myFunction()">
+                <img src="src/images/settings.png" id="setbutton" width="50" height="50">
+            </a>
+            <!--settings button-->
+            <a class="settings" href="index.html" id="home">
+                <img src="src/images/settings.png" width="50" height="50">
+            </a>
+            <iframe src="src/settings.html " id="set" frameBorder="0" style="width:100%; height:100%; "></iframe>
+            <div class="first" id="first">
+                <div class="weather">
+                    <iframe src="src/weather.html " scrolling="no" frameBorder="0" style="width:100%; height:100%;"></iframe>
+                </div>
+                <!--  RSS feed tracker-->
+                <!--put you rss feed code inside div class rssfeed-->
+                <div class=" rssfeed">
+                    <h1>RSS Feed</h1>
+                </div>
+            </div>
+            <div class="second" id="second">
+                <div class="calendar">
+                    <iframe src="src/calendar.html " scrolling="no" frameBorder="0" style="width:100%; height:100%; "></iframe>
+                </div>
+                <div class="todolist">
+                    <iframe src="src/todolist.html " scrolling="no" frameBorder="0" style="width:100%; height:100%; "></iframe>
+                </div>
+            </div>
+            <script src="src/js/script.js"></script>
+    </body>
+</html>
