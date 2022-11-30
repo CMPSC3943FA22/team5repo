@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: transparent;
+}
+
+a,
+a:visited {
+    color: blue;
+}
+
+h1 {
+    background-color: lightgray !important;
+    color: black !important;
+    padding: 10px !important;
+    border-bottom: 1px black solid !important;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    margin: 0 !important;
+}
+
+h2 {
+    display: block !important;
+    font-size: 1.5em !important;
+    margin-block-start: 0.83em !important;
+    margin-block-end: 0.83em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    font-weight: bold !important;
+}
+
+div.contents {
+    padding: 10px;
+}
+
+button {
+    margin: 3px !important;
+}
