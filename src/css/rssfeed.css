@@ -1,0 +1,15 @@
+.rss-feed-items-parent{
+    height: 95%;
+    padding-top: 15px;
+}
+
+.rss-feed-items-child{
+    padding-top: 15px;
+    float: left;
+    align-items: center;
+    justify-items: center;
+    max-width: 20%;
+    
+}
+
+
